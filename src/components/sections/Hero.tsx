@@ -75,7 +75,7 @@ export default function Hero() {
       {/* CONTENT */}
       <div className="relative z-10 max-w-7xl mx-auto px-5 w-full pt-28 pb-20">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-10 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 lg:gap-10 items-center">
 
           {/* LEFT */}
           <div className="max-w-2xl">
