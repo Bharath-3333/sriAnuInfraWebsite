@@ -216,8 +216,9 @@ export default function Hero() {
   max-w-[360px]
   sm:max-w-[420px]
   md:max-w-[540px]
+  
 
-  h-[620px]
+  h-auto
   sm:h-[620px]
   md:h-[620px]
 
