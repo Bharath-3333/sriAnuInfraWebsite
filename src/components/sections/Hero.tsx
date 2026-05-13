@@ -75,7 +75,7 @@ export default function Hero() {
       {/* CONTENT */}
       <div className="relative z-10 max-w-7xl mx-auto px-5 w-full pt-28 pb-20">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
 
           {/* LEFT */}
           <div className="max-w-2xl">
@@ -96,7 +96,7 @@ export default function Hero() {
             {/* HEADING */}
             <h1
               className="animate-fade-up opacity-0-start animate-delay-200
-              text-5xl sm:text-6xl lg:text-7xl font-extrabold
+              text-3xl sm:text-5xl lg:text-7xl font-extrabold
               leading-[1.1] mb-6 text-text-primary"
               style={{ animationFillMode: 'both' }}
             >
@@ -213,7 +213,8 @@ export default function Hero() {
   animate-fade-up opacity-0-start animate-delay-300 mt-10 lg:mt-0"
 >
   <div
-  className="relative w-full max-w-[540px] h-[700px] lg:h-[620px]
+  className="relative w-full max-w-[320px] md:max-w-[540px]
+h-[420px] md:h-[620px]
   rounded-[32px] overflow-hidden
   shadow-[0_25px_60px_rgba(0,0,0,0.28)]"
 >
