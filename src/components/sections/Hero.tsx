@@ -209,15 +209,14 @@ export default function Hero() {
 </div> 
         {/* RIGHT — Premium Solar Banner */}
 <div
-  className="hidden lg:flex items-center justify-center
-  animate-fade-up opacity-0-start animate-delay-300"
-  style={{ animationFillMode: 'both' }}
+  className="flex items-center justify-center
+  animate-fade-up opacity-0-start animate-delay-300 mt-10 lg:mt-0"
 >
   <div
-    className="relative w-[540px] h-[620px]
-    rounded-[32px] overflow-hidden
-    shadow-[0_25px_60px_rgba(0,0,0,0.28)]"
-  >
+  className="relative w-full max-w-[540px] h-[700px] lg:h-[620px]
+  rounded-[32px] overflow-hidden
+  shadow-[0_25px_60px_rgba(0,0,0,0.28)]"
+>
 
     {/* Background Image */}
     <img
