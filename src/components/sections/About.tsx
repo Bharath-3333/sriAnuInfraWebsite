@@ -388,8 +388,11 @@ const styles: AboutStyles = {
 
   /* Visual col */
   visualCol: {
-    position: 'relative',
-  },
+  position: 'relative',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+},
   heroCard: {
     position: 'relative',
     background: 'linear-gradient(135deg, #143925 0%, #0c2416 55%, #071b12 100%)',
@@ -422,14 +425,20 @@ logoWrap: {
 },
 
 logo: {
-  width: 80,
-  height: 80,
-  objectFit: 'contain',
-  borderRadius: "50%",
-  alignItems:"center",
-  backgroundColor: 'transparent',
-  padding: 12,
-  boxShadow: '0 16px 36px rgba(0,0,0,0.14)',
+  width: 64,
+  height: 64,
+  objectFit: 'cover',
+
+  borderRadius: '50%',
+
+  background: '#ffffff',
+  padding: 8,
+
+  border: '3px solid rgba(255,255,255,0.95)',
+
+  boxShadow: '0 8px 22px rgba(0,0,0,0.16)',
+
+  display: 'block',
 },
 
 cardTagline: {
@@ -486,50 +495,53 @@ statLabel: {
 
 badgeClean: {
   position: 'absolute',
-  bottom: -55,
-  left: -25,
 
-  background: 'rgba(255,255,255,0.92)',
+  bottom: -40,
+  left: -28,
+
+  background: 'rgba(255,255,255,0.95)',
   backdropFilter: 'blur(18px)',
 
-  borderRadius: 24,
-  padding: '16px 22px',
+  borderRadius: 22,
+  padding: '14px 18px',
 
   display: 'flex',
   alignItems: 'center',
-  gap: 14,
+  gap: 12,
 
-  border: '1px solid rgba(255,255,255,0.5)',
+  border: '1px solid rgba(255,255,255,0.6)',
 
-  boxShadow: '0 20px 45px rgba(0,0,0,0.14)',
+  boxShadow: '0 12px 30px rgba(0,0,0,0.12)',
 
-  minWidth: 220,
+  width: '220px',
 
-  zIndex: 5,
+  zIndex: 10,
 },
 
 badgeRD: {
   position: 'absolute',
-  top: -18,
-  right: -24,
 
-  background: 'rgba(255,255,255,0.88)',
+  top: -48,
+  right: -28,
+
+  background: 'rgba(255,255,255,0.95)',
   backdropFilter: 'blur(18px)',
 
-  borderRadius: 24,
-  padding: '16px 22px',
+  borderRadius: 22,
+  padding: '14px 18px',
 
   display: 'flex',
   alignItems: 'center',
-  gap: 14,
+  gap: 12,
 
-  border: '1px solid rgba(255,255,255,0.5)',
+  border: '1px solid rgba(255,255,255,0.6)',
 
-  boxShadow: '0 20px 45px rgba(0,0,0,0.14)',
+  boxShadow: '0 12px 30px rgba(0,0,0,0.12)',
 
-  minWidth: 220,
+  width: '220px',
+
+  zIndex: 10,
 },
-
 badgeEmoji: {
   fontSize: 24,
 },

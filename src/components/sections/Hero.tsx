@@ -75,7 +75,7 @@ export default function Hero() {
       {/* CONTENT */}
       <div className="relative z-10 max-w-7xl mx-auto px-5 w-full pt-28 pb-20">
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-10 items-center">
 
           {/* LEFT */}
           <div className="max-w-2xl">
@@ -209,15 +209,37 @@ export default function Hero() {
 </div> 
         {/* RIGHT — Premium Solar Banner */}
 <div
-  className="flex items-center justify-center
-  animate-fade-up opacity-0-start animate-delay-300 mt-10 lg:mt-0"
+  className="
+  relative
+  w-full
+
+  max-w-[360px]
+  sm:max-w-[420px]
+  md:max-w-[540px]
+
+  h-[620px]
+  sm:h-[620px]
+  md:h-[620px]
+
+  rounded-[28px]
+  sm:rounded-[32px]
+
+  overflow-hidden
+  shadow-[0_25px_60px_rgba(0,0,0,0.28)]
+
+  mx-auto
+  "
 >
-  <div
-  className="relative w-full max-w-[320px] md:max-w-[540px]
-h-[420px] md:h-[620px]
-  rounded-[32px] overflow-hidden
-  shadow-[0_25px_60px_rgba(0,0,0,0.28)]"
->
+ <div
+    className="
+    relative
+    w-full
+    h-full
+    rounded-[32px]
+    overflow-hidden
+    shadow-[0_25px_60px_rgba(0,0,0,0.28)]
+    "
+  >
 
     {/* Background Image */}
     <img
@@ -245,7 +267,7 @@ h-[420px] md:h-[620px]
     />
 
     {/* Content */}
-    <div className="relative z-10 h-full flex flex-col justify-between p-8">
+    <div className="relative z-10 h-full flex flex-col justify-between p-5 sm:p-8">
 
       {/* TOP */}
       <div>
@@ -264,9 +286,16 @@ h-[420px] md:h-[620px]
         </div>
 
         <h2
-          className="text-4xl xl:text-5xl font-extrabold
-          leading-tight text-white"
-        >
+  className="
+  text-[24px]
+  sm:text-4xl
+  xl:text-5xl
+
+  font-extrabold
+  leading-[1.05]
+  text-white
+  "
+>
           POWERING A
 
           <span className="block text-yellow-400">
@@ -274,7 +303,7 @@ h-[420px] md:h-[620px]
           </span>
         </h2>
 
-        <p className="mt-5 text-white/75 leading-relaxed max-w-md">
+        <p className="mt-3 text-[13px] sm:text-base text-white/75 leading-relaxed max-w-md">
           Sri Anu Infrastructure delivers reliable EPC solar
           solutions with innovation, engineering excellence
           and long-term sustainability.
@@ -283,7 +312,7 @@ h-[420px] md:h-[620px]
       </div>
 
       {/* FEATURE CARDS */}
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-3 sm:gap-4">
 
         {[
           ['⚡', 'Clean Energy'],
@@ -293,7 +322,7 @@ h-[420px] md:h-[620px]
         ].map(([icon, title]) => (
           <div
             key={title}
-            className="rounded-2xl p-4
+            className="rounded-2xl p-2.5 sm:p-4
             bg-white/10 backdrop-blur-md
             border border-white/10
             hover:scale-[1.03]
@@ -303,7 +332,7 @@ h-[420px] md:h-[620px]
               {icon}
             </div>
 
-            <h3 className="text-white font-semibold text-sm">
+            <h3 className="text-white font-semibold text-xs sm:text-sm">
               {title}
             </h3>
 
