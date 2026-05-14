@@ -53,7 +53,7 @@ export default function Hero() {
     <section
       id="hero"
       ref={heroRef}
-      className="relative min-h-screen flex items-center overflow-hidden bg-hero-gradient"
+      className="relative xl:min-h-screen overflow-hidden bg-hero-gradient -mt-24 sm:mt-0"
     >
       {/* BACKGROUND */}
       <div className="hero-bg-parallax absolute inset-0">
@@ -73,12 +73,12 @@ export default function Hero() {
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-10 max-w-7xl mx-auto px-5 w-full pt-28 pb-20">
+      <div className="relative z-10 w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-10 pt-0 sm:pt-28 pb-16">
 
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 lg:gap-10 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-[1.1fr_0.9fr] gap-16 xl:gap-12 items-center">
 
           {/* LEFT */}
-          <div className="max-w-2xl">
+          <div className="w-full max-w-2xl">
 
             <div
               className="animate-fade-up opacity-0-start animate-delay-100
@@ -96,7 +96,7 @@ export default function Hero() {
             {/* HEADING */}
             <h1
               className="animate-fade-up opacity-0-start animate-delay-200
-              text-3xl sm:text-5xl lg:text-7xl font-extrabold
+              text-4xl md:text-5xl xl:text-7xl font-extrabold
               leading-[1.1] mb-6 text-text-primary"
               style={{ animationFillMode: 'both' }}
             >
@@ -163,7 +163,7 @@ export default function Hero() {
   className="animate-fade-up opacity-0-start animate-delay-500 mt-14"
   style={{ animationFillMode: 'both' }}
 >
-  <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
+  <div className="grid grid-cols-2 xl:grid-cols-4 gap-5">
 
     {[
       ['19+', 'Projects Completed'],
@@ -213,9 +213,7 @@ export default function Hero() {
   relative
   w-full
 
-  max-w-[360px]
-  sm:max-w-[420px]
-  md:max-w-[540px]
+ max-w-[540px]
   
 
   h-auto
@@ -313,8 +311,7 @@ export default function Hero() {
       </div>
 
       {/* FEATURE CARDS */}
-      <div className="grid grid-cols-2 gap-3 sm:gap-4">
-
+      <div className="grid grid-cols-2 gap-3">
         {[
           ['⚡', 'Clean Energy'],
           ['🛠️', 'Turn-key EPC'],
