@@ -53,7 +53,7 @@ export default function Hero() {
     <section
       id="hero"
       ref={heroRef}
-      className="relative xl:min-h-screen overflow-hidden bg-hero-gradient -mt-24 sm:mt-0"
+      className="relative xl:min-h-screen overflow-hidden bg-hero-gradient"
     >
       {/* BACKGROUND */}
       <div className="hero-bg-parallax absolute inset-0">
@@ -73,12 +73,11 @@ export default function Hero() {
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-10 w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-10 pt-0 sm:pt-28 pb-16">
-
+      <div className="relative z-10 w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-24 xl:px-28 pt-36 sm:pt-32 lg:pt-28 pb-20">
         <div className="grid grid-cols-1 xl:grid-cols-[1.1fr_0.9fr] gap-16 xl:gap-12 items-center">
 
           {/* LEFT */}
-          <div className="w-full max-w-2xl">
+          <div className="w-full max-w-2xl xl:ml-6">
 
             <div
               className="animate-fade-up opacity-0-start animate-delay-100
@@ -351,8 +350,8 @@ export default function Hero() {
 
 {/* ── Scroll indicator ── */}
 <div
-  className="absolute bottom-8 left-1/2 -translate-x-1/2
-  flex flex-col items-center gap-2 animate-bounce"
+  className="absolute bottom-2 left-1/2 -translate-x-1/2
+  flex flex-col items-center gap-2 animate-bounce z-30"
 >
   <span className="font-heading font-600 text-text-muted text-2xs tracking-widest uppercase">
     Scroll

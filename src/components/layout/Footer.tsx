@@ -76,25 +76,50 @@ export default function Footer() {
               A team of passionate engineers delivering Turn-key EPC solar solutions across India.
               Rooftop to large-scale — we power the future, cleanly.
             </p>
-            <div className="flex gap-3">
+            <div className="flex items-center gap-4 mt-6">
 
-              <a href="https://www.linkedin.com/company/sri-anu-infrastructure" target="_blank" rel="noopener noreferrer">
-                <FaIcons.FaLinkedinIn size={14} />
-              </a>
+  {/* Facebook */}
+  <a
+    href="#"
+    className="w-11 h-11 rounded-full bg-[#1877F2]
+    flex items-center justify-center
+    hover:scale-110 transition-all duration-300"
+  >
+    <i className="fab fa-facebook-f text-white text-2xl"></i>
+  </a>
 
-              <a href="https://www.instagram.com/chittibabugarbhapu?igsh=MW0wcDdtOXhub2s5bA==" target="_blank" rel="noopener noreferrer">
-                <FaIcons.FaInstagram size={14} />
-              </a>
+  {/* LinkedIn */}
+  <a
+    href="#"
+    className="w-11 h-11 rounded-full bg-[#0077B5]
+    flex items-center justify-center
+    hover:scale-110 transition-all duration-300"
+  >
+    <i className="fab fa-linkedin-in text-white text-2xl"></i>
+  </a>
 
-              <a href="https://www.facebook.com/share/r/17tfbyTVft/" target="_blank" rel="noopener noreferrer">
-                <FaIcons.FaFacebookF size={14} />
-              </a>
+  {/* Instagram */}
+  <a
+    href="#"
+    className="w-11 h-11 rounded-full
+    bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600
+    flex items-center justify-center
+    hover:scale-110 transition-all duration-300"
+  >
+    <i className="fab fa-instagram text-white text-2xl"></i>
+  </a>
 
-              <a href="https://youtube.com/@solarsystemworkcom?si=_lClvmW9Ql28dfPM" target="_blank" rel="noopener noreferrer">
-                <FaIcons.FaYoutube size={14} />
-              </a>
+  {/* YouTube */}
+  <a
+    href="#"
+    className="w-11 h-11 rounded-full bg-[#FF0000]
+    flex items-center justify-center
+    hover:scale-110 transition-all duration-300"
+  >
+    <i className="fab fa-youtube text-white text-2xl"></i>
+  </a>
 
-            </div>
+</div>
           </div>
 
           {/* Quick Links */}
