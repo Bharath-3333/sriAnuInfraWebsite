@@ -80,7 +80,10 @@ export default function Footer() {
 
   {/* Facebook */}
   <a
-    href="#"
+    href="https://www.facebook.com/share/r/17tfbyTVft/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Follow us on Facebook"
     className="w-11 h-11 rounded-full bg-[#1877F2]
     flex items-center justify-center
     hover:scale-110 transition-all duration-300"
@@ -90,7 +93,10 @@ export default function Footer() {
 
   {/* LinkedIn */}
   <a
-    href="#"
+    href="https://www.linkedin.com/company/srianuinfrastructure"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Follow us on LinkedIn"
     className="w-11 h-11 rounded-full bg-[#0077B5]
     flex items-center justify-center
     hover:scale-110 transition-all duration-300"
@@ -100,7 +106,10 @@ export default function Footer() {
 
   {/* Instagram */}
   <a
-    href="#"
+    href="https://www.instagram.com/chittibabugarbhapu?igsh=MW0wcDdtOXhub2s5bA=="
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Follow us on Instagram"
     className="w-11 h-11 rounded-full
     bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600
     flex items-center justify-center
@@ -111,7 +120,10 @@ export default function Footer() {
 
   {/* YouTube */}
   <a
-    href="#"
+    href="https://youtube.com/@solarsystemworkcom?si=_lClvmW9Ql28dfPM"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Subscribe on YouTube"
     className="w-11 h-11 rounded-full bg-[#FF0000]
     flex items-center justify-center
     hover:scale-110 transition-all duration-300"
