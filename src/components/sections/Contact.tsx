@@ -13,7 +13,7 @@ const CONTACT_INFO = [
   {
     icon: '📞',
     label: 'Phone',
-    value: '+91 83092 27037',
+    value: '+91 9601118857',
     sub: 'Mon – Sat, 9AM – 6PM IST',
   },
   {
@@ -354,7 +354,7 @@ export default function Contact() {
                     <input
                       id="phone" name="phone" type="tel"
                       value={form.phone} onChange={handleChange}
-                      placeholder="+91 83092 27037"
+                      placeholder="+91 9601118857"
                       className={`form-input ${errors.phone ? 'border-red-400' : ''}`}
                     />
                     {errors.phone && <span className="form-error">{errors.phone}</span>}
